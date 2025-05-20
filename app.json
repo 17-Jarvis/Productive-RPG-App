@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "todo-rpg",
+    "slug": "todo-rpg",
+    "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "todorpg",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abish17.todorpg"
+    },
+    "android": {
+      "package": "com.abish17.todorpg",
+      "versionCode": 1,
+      "versionName": "1.0.0",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": []
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "307d6e22-ef5c-438f-be62-5c399f467f5f"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/307d6e22-ef5c-438f-be62-5c399f467f5f"
+    }
+  }
+}
